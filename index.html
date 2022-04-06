@@ -4,45 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clon Google</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
-    <div class="inicio">
+    <header>
+    <nav class="inicio">
         <ul>
             <li><a href="">Gmail</a></li>
             <li><a href="">Images</a></li>
-            <li><a href=""><i>Google apps</i></a></li>
-            <li><img src="./img/perfil.png" class="perfil">Cuenta</li>
+            <img src="/img/dotes.png" alt="" class="doted">
+
+            <img src="./img/perfil.png" class="perfil">
         </ul>
-    </div>
+    </nav>
+    </header>
 
-    <div class="imagen">
+    <main>
+   
+    <center>
+    <section class="wrap-medio">
 
-        <img src="./img/GoogleSearch.png" alt="">
-    </div>
+    <img id="logo" src="https://www.google.com.mx/logos/doodles/2022/celebrating-ladi-kwali-6753651837109028.2-law.gif" alt="">
 
-
+   
     <div class="medio">
-        <input type="text" placeholder="">
-        <button>Buscar con Google</button>
-        <button>Me siento con suerte</button>
+        <input type="text" placeholder="" id="input-search">
+        <button id="search" class="btn-search">Buscar con Google</button>
+        <button id="lucky" class="btn-search">Me siento con suerte</button>
     </div>
-
+    </section>
+    </center>
+    
+    
+</main>
     <footer>
-        <div>México</div>
-        <div>
+        <div class="pais">México</div>
+        <section>
             <ul>
+                <div>
                 <li> <a href="">Sobre Google</a></li>
                 <li> <a href="">Publicidad</a> </li>
                 <li><a href=""> Negocios</a></li>
                 <li><a href=""> Cómo funciona la Búsqueda</a></li>
+                </div>
+                <div>
                 <li><a href="">Privacidad</a> </li>
                 <li><a href="">Condiciones</a> </li>
                 <li><a href=""> Preferencias</a></li>
+            </div>
             </ul>
-        </div>
+        </section>
     </footer>
 
 </body>

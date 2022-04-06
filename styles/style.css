@@ -1,7 +1,132 @@
 
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Share+Tech+Mono&display=swap');
+*{
+font-family: 'Roboto', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+   
+}
 .perfil{
-    width: 20px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
 }
 
+.doted{
+    width: 35px;
+    height: 35px;
+
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    
+}
+li a {
+    text-decoration: none;
+    
+}
+
+li a:visited{
+    color: black;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+
+.medio{
+    margin: auto;
+}
+
+.pais{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.medio button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.medio button:hover{
+    border-color: gray;
+}
+
+.medio input{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    height: 34px;
+    border-radius: 15px;
+    border-color: rgb(170, 161, 161);
+}
+
+.medio input:hover{
+    border-color: rgb(124, 118, 118);
+}
+
+.wrap-medio{   
+  margin: auto;
+  width: 80%;
+}
+
+
+
+.inicio{
+    display: flex;
+   
+    
+    
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+
+footer{
+    margin-top: 200px;
+   
+    
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    }
+
+footer ul li{
+    margin: 15px;
+}
+
+footer ul li a:visited{
+    color: #70757a; ;
+}
